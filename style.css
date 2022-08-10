@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ecd1bc;
+    font-family: "roboto", "sans-serif";
+}
+
+main{
+    max-width: 400px;
+    margin: 10px auto;
+    color: #361D2E;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px #361D2E;
+    border-radius: 8px;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding: 32px 0;
+    text-align: center;
+}
+
+/*Especifico*/
+/*Topo*/
+header h1{
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 4px;
+}
+
+header h1 span{
+    color: #86A397;
+}
+
+header p{
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+header h1, section h2, li h3, .price{
+    font-family: "Roboto Serif", "serif";
+    text-transform: uppercase;
+}
+
+section h2{
+    text-align: center;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    background-color: #e4b98d;
+}
+
+section ul li{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    cursor: pointer;
+}
+
+li h3{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+li .description{    
+    max-width: 200px;
+    
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.price{
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+#last_product{
+    padding-bottom: 25px;
+}
